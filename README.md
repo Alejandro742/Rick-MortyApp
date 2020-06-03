@@ -9,3 +9,7 @@ En el proyecto se ven temas como:
 - Bootstrap
 
 ![](./markdown_img.png)
+
+# Sources
+- https://rickandmortyapi.com/
+- https://getbootstrap.com/
