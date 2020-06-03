@@ -1,0 +1,20 @@
+{
+  "name": "rick_morty_app",
+  "version": "1.0.0",
+  "description": "App de personajes de Rick and Morty",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/js/app.js"
+  },
+  "keywords": [
+    "js",
+    "fetch",
+    "css"
+  ],
+  "author": "Alejandro Barba",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
