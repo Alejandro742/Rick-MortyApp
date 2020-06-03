@@ -8,4 +8,4 @@ En el proyecto se ven temas como:
 - Css Grid
 - Bootstrap
 
-![](./src/imgs/markdown_img.png)
+![](./markdown_img.png)
