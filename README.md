@@ -5,7 +5,7 @@ En el proyecto se ven temas como:
 - Fetch API
 - API de Rick and Morty
 - JS,CSS
-- css grid
+- Css Grid
 - Bootstrap
 
 ![](./src/imgs/markdown_img.png)
