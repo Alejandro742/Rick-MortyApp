@@ -7,3 +7,5 @@ En el proyecto se ven temas como:
 - JS,CSS
 - css grid
 - Bootstrap
+
+![](./src/imgs/markdown_img.png)
