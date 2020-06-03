@@ -1,0 +1,55 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+img{
+    max-width: 100%;
+}
+h1{
+    font-size: 4rem;
+    color:white;
+}
+a{
+    font-size: 1.7rem;
+}
+
+.fntsz{
+    font-size: 1.8rem
+}
+.fntsz-secundary{
+    font-size: 1.4rem;
+}
+
+.contenedor-main{
+    display: grid;
+    grid-template-rows: 30% 60%;
+    row-gap: 4rem;
+}
+@media screen and (min-width: 768px) {
+        .contenedor-main{
+            grid-template-columns: repeat(2,1fr);
+            column-gap: 2rem;
+        }
+}
+
+.card-body p{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: royalblue;
+}
+
+.card-body span{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: black;
+}
+
+body{
+    background-image: url('../imgs/portal.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
