@@ -17,26 +17,44 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-            </ul>
+    <main class="container p-5 text-center">
+        <h1 class = "mb-5">Personajes Rick & Morty</h1>
+        <div class="contenedor-main p-2">
+            <div class="formulario">
+                <div class="card">
+                    <div class=" fntsz card-header">
+                        Formulario
+                    </div>
+                    <div class="card-body">
+                        <form action="#" id="form-personaje">
+                            <div class="form-group">
+                                <label for="name" class="fntsz">Nombre del Personaje</label>
+                                <input  type="text" class=" fntsz-secundary form-control" id="name" autofocus>
+                                <small id="emailHelp" class="fntsz-secundary form-text text-muted">We'll never share your email with anyone else.</small>
+                                <div class="" id="mensaje-error">
+
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block fntsz-secundary">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="personaje">
+                <div class="card">
+                    <div class="card-header fntsz">
+                        Personaje
+                    </div>
+                    <div class="card-body" id="personaje-card">
+                        
+                        <p>Nombre: <span id="nombre-span"></span></p>
+                        <p>Estado: <span id="estado-span"></span></p>
+                        <p>Especie: <span id="especie-span"></span></p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
+    </main>
 
 
     <!-- Bootstrap JS -->
@@ -50,7 +68,7 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
 
-    <script type="module" src="js/app.js"></script>
+    <script type="module" src="./js/app.js"></script>
 </body>
 
 </html>
